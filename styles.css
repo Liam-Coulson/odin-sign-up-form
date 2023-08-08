@@ -348,7 +348,12 @@ template {
   display: none;
 }
 
+/* ============================================== */
 /* My CSS starts here, above CSS is normalise.css */
+
+:root {
+  --margin: 60px;
+}
 
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -378,6 +383,10 @@ input {
   background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
 } */
 
+.column > * {
+  padding: 0px var(--margin);
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -385,24 +394,24 @@ input {
   height: 100vh;
   width: 50%;
   border: black solid 2px;
+  /* padding: 0px 20px; */
 }
 
 .form-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 16px 0px;
+  margin: 24px 0px;
 }
 
 .form-item {
   display: flex;
   flex-direction: column;
-  margin: 0px 32px;
+  margin-right: calc(var(--margin)*1.25);
 }
 
 form {
-  box-shadow: 3px 3px 5px grey;
-
+  box-shadow: 0px 6px 8px grey;
 }
 
 button {
