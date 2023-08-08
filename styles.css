@@ -352,8 +352,9 @@ template {
 /* My CSS starts here, above CSS is normalise.css */
 
 :root {
-  --left-right-margin: 60px;
-  --top-bottom-padding: 100px;
+  --col-left-right-margin: 60px;
+  --col-top-bottom-padding: 100px;
+  --individual-top-bottom-margin: 32px;
 }
 
 * {
@@ -385,18 +386,24 @@ input {
 } */
 
 .column > * {
-  padding-left: var(--left-right-margin);
-  padding-right: var(--left-right-margin);
+  padding-left: var(--col-left-right-margin);
+  padding-right: var(--col-left-right-margin);
+  margin-top: var(--individual-top-bottom-margin);
+  margin-bottom: var(--individual-top-bottom-margin);
 }
 
 .column {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: calc(100vh - var(--top-bottom-padding)*2);
+  min-height: calc(100vh - var(--col-top-bottom-padding)*2);
   width: 50%;
   border: black solid 2px;
-  padding: var(--top-bottom-padding) 0px;
+  padding: var(--col-top-bottom-padding) 0px;
+}
+
+.right {
+  justify-content: center;
 }
 
 .form-row {
@@ -409,7 +416,7 @@ input {
 .form-item {
   display: flex;
   flex-direction: column;
-  margin-right: calc(var(--left-right-margin)*1.25);
+  margin-right: calc(var(--col-left-right-margin)*1.25);
   padding: 6px 0px;
 }
 
@@ -423,6 +430,13 @@ button {
   background-color: rgb(89, 109, 72);
   color: white;
   border-radius: 8px;
-  width: 200px;
+  border-width: 0px;
+  width: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 16px 48px;
+}
+
+.login {
   font-size: 24px;
 }
