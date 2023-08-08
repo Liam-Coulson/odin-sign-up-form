@@ -1,17 +1,40 @@
 div {
-  background-color: yellow;
   color: blue;
   font-size: 40px;
+}
+
+input, label {
+  font-size: 12px;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
+
+/* .left {
+  background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+} */
 
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
+  justify-content: space-around;
+  height: 100vh;
+  width: 50%;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: rgb(89, 109, 72);
+  color: white;
+  border-radius: 8px;
 }
