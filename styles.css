@@ -362,10 +362,22 @@ template {
   src: url(assets/Norse-Bold.otf);
 }
 
-.logo {
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.title-text {
   font-family: Norse-Bold;
   font-size: 120px;
   font-weight: bold;
+}
+
+.logo {
+  height: auto;
+  width: 15%;
 }
 
 * {
