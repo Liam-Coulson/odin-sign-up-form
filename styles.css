@@ -410,9 +410,9 @@ input {
   flex-direction: row;
 }
 
-/* .left {
-  background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
-} */
+.credit {
+  color: white;
+}
 
 .column > * {
   padding-left: var(--col-left-right-margin);
@@ -424,6 +424,7 @@ input {
 .left {
   background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
   width: 33%;
+  background-size: 110%;
 }
 
 .column {
