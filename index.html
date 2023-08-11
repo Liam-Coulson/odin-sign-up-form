@@ -20,8 +20,8 @@
       </div>
       <div class="right column">
         <div class="form-info">Please sign up to our imaginary service here</div>
-        <form action="#" method="post">
-          
+        <form id="signup_form" action="#" method="post">
+          Sign up now!
           <div class="form-row">
             <div class="form-item">
               <label for="first_name">First Name</label>
@@ -59,7 +59,11 @@
           </div>
         </form>
 
-        <div><button>Create Account</button></div>
+        <div>
+          <button type="submit" form="signup_form" class="submit-button">
+            Create Account</button>
+        </div>
+
         <div class="login">Already have an account? <strong>Log in</strong></div>
       </div>
     </div>
