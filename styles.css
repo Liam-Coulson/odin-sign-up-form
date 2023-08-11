@@ -366,13 +366,19 @@ template {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  /* background-color: black; */
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.title-wrapper > * {
+  opacity: initial;
 }
 
 .title-text {
   font-family: Norse-Bold;
   font-size: 120px;
   font-weight: bold;
+  color: white;
 }
 
 .logo {
@@ -415,18 +421,24 @@ input {
   margin-bottom: var(--individual-top-bottom-margin);
 }
 
+.left {
+  background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+  width: 33%;
+}
+
 .column {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   min-height: calc(100vh - var(--col-top-bottom-padding)*2);
-  width: 50%;
+  /* width: 50%; */
   border: black solid 2px;
   padding: var(--col-top-bottom-padding) 0px;
 }
 
 .right {
   justify-content: center;
+  width: 67%;
 }
 
 .form-row {
