@@ -367,7 +367,7 @@ template {
   justify-content: center;
   align-items: center;
   /* background-color: black; */
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .title-wrapper > * {
@@ -412,6 +412,9 @@ input {
 
 .credit {
   color: white;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  align-self: center;
 }
 
 .column > * {
