@@ -478,7 +478,19 @@ input {
   font-weight: bold;
   padding: 16px 48px;
   cursor: pointer;
+  box-shadow: 0 9px #999;
 }
+
+.submit-button:hover {
+  background-color: rgb(99, 125, 76);
+}
+
+.submit-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Above styles were taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3 */
 
 .login {
   font-size: 24px;
