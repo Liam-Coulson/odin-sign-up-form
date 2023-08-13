@@ -477,6 +477,7 @@ input {
   font-size: 24px;
   font-weight: bold;
   padding: 16px 48px;
+  cursor: pointer;
 }
 
 .login {

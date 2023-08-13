@@ -9,7 +9,6 @@ function checkMatch() {
     if (passwordField.value != confirmPasswordField.value) {
         confirmPasswordField.setCustomValidity("Passwords do not match");
         console.log("Passwords do not match");
-        console.log("password is: ", passwordField.value);
     } else {
         confirmPasswordField.setCustomValidity("");
         console.log("Passwords match");
