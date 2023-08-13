@@ -506,8 +506,10 @@ input:valid {
   border: solid green 2px;
 }
 
-/* input:focus {
-  background-color: aquamarine;
-  border: solid green 2px;
-  outline: none;
+a:link {
+  color: rgb(89, 109, 72);
+}
+/* 
+a:visited {
+  color: blue;
 } */
