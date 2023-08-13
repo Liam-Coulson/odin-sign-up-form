@@ -24,37 +24,42 @@
           Sign up now!
           <div class="form-row">
             <div class="form-item">
-              <label for="first_name">First Name</label>
-              <input type="text" id="first_name" name="first_name" placeholder="William">
+              <label for="first_name">First Name (*)</label>
+              <input type="text" id="first_name" name="first_name"
+              required placeholder="William">
             </div>
 
             <div class="form-item">
-              <label for="last_name">Last Name</label>
-              <input type="text" id="last_name" name="last_name" placeholder="Shakespeare">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-item">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="odin@thor.com">
-            </div>
-
-            <div class="form-item">
-              <label for="phone_number">Phone Number</label>
-              <input type="tel" id="phone_number" name="phone_number" placeholder="07123456789">
+              <label for="last_name">Last Name (*)</label>
+              <input type="text" id="last_name" name="last_name"
+              required placeholder="Shakespeare">
             </div>
           </div>
 
           <div class="form-row">
             <div class="form-item">
-              <label for="password">Password</label>
-              <input type="password" id,="password" name="password">
+              <label for="email">Email (*)</label>
+              <input type="email" id="email" name="email"
+              required placeholder="odin@thor.com">
+            </div>
+
+            <div class="form-item">
+              <label for="phone_number">Phone Number (*)</label>
+              <input type="tel" id="phone_number" name="phone_number"
+              required placeholder="07123456789">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-item">
+              <label for="password">Password (*)</label>
+              <input type="password" id="password" name="password" required>
             </div>
             
             <div class="form-item">
-              <label for="confirm_password">Confirm password</label>
-              <input type="password" id,="confirm_password" name="confirm_password">
+              <label for="confirm_password">Confirm password (*)</label>
+              <input type="password" id,="confirm_password" name="confirm_password"
+              required>
             </div>
           </div>
         </form>

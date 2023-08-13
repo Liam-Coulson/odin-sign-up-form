@@ -401,7 +401,9 @@ label {
 }
 
 input {
-  font-size: 20px;
+  width: 265px;
+  height: 23px;
+  font-size: 14px;
   border-radius: 4px;
 }
 
@@ -436,7 +438,7 @@ input {
   justify-content: space-around;
   min-height: calc(100vh - var(--col-top-bottom-padding)*2);
   /* width: 50%; */
-  border: black solid 2px;
+  /* border: black solid 2px; */
   padding: var(--col-top-bottom-padding) 0px;
 }
 
@@ -480,3 +482,19 @@ input {
 .login {
   font-size: 24px;
 }
+
+input:invalid {
+  background-color: ivory;
+  border: solid red 2px;
+}
+
+input:valid {
+  background-color: ivory;
+  border: solid green 2px;
+}
+
+/* input:focus {
+  background-color: aquamarine;
+  border: solid green 2px;
+  outline: none;
+} */
