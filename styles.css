@@ -430,7 +430,7 @@ input {
 
 .left {
   background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
-  width: 33%;
+  width: max(33%, 400px);
   background-size: 100% 100%;
 }
 
