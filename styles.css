@@ -368,6 +368,8 @@ template {
   align-items: center;
   /* background-color: black; */
   background: rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .title-wrapper > * {
@@ -383,7 +385,7 @@ template {
 
 .logo {
   height: auto;
-  width: 15%;
+  width: 100px;
 }
 
 * {
